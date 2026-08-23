@@ -12,9 +12,9 @@ export default function Footer() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid gap-12 md:grid-cols-4">
           <div className="md:col-span-1">
-            <Link href="/" className="mb-6 flex items-center gap-3">
-              <div className="relative h-12 w-12 overflow-hidden rounded-xl bg-brand-red/10 p-1">
-                <Image src="/logo.png" alt="Arix Logo" fill className="object-contain" />
+            <Link href="/" className="mb-6 flex items-center gap-3 group">
+              <div className="relative h-12 w-12 overflow-hidden rounded-xl bg-brand-red/10 border border-brand-red/20 shadow-[0_0_15px_rgba(239,68,68,0.3)] group-hover:scale-105 transition-transform">
+                <Image src="/logo.png" alt="Arix Logo" fill className="object-cover" />
               </div>
               <span className="text-2xl font-bold tracking-tight text-white">
                 ARIX<span className="text-brand-red">MC</span>

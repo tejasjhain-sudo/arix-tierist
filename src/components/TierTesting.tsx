@@ -24,7 +24,7 @@ const STEPS = [
   {
     icon: <Award size={24} />,
     title: "Receive Tier",
-    description: "Get evaluated and receive your official RearMC tier displayed on your profile.",
+    description: "Get evaluated and receive your official Arix tier displayed on your profile.",
   },
 ];
 

@@ -59,9 +59,9 @@ export function ClaimProfileModal({ ign, onClose, onClaimed }: { ign: string; on
           if (pollingRef.current) clearInterval(pollingRef.current);
           
           // Save authorization securely to local storage
-          const claims = JSON.parse(localStorage.getItem("rearmc_claims") || "{}");
+          const claims = JSON.parse(localStorage.getItem("arix_claims") || "{}");
           claims[ign] = true;
-          localStorage.setItem("rearmc_claims", JSON.stringify(claims));
+          localStorage.setItem("arix_claims", JSON.stringify(claims));
           
           // Wait 1.5 seconds to show the green checkmark before firing callback
           setTimeout(() => {

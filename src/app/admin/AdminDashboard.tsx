@@ -199,7 +199,7 @@ export default function AdminDashboard({
       <div className="w-64 bg-[#0a0a0a] border-r border-white/5 flex flex-col">
         <div className="p-6">
           <h1 className="text-xl font-bold text-white flex items-center gap-2">
-            <span className="text-brand-red">RearMC</span> Admin Console
+            <span className="text-brand-red">Arix</span> Admin Console
           </h1>
         </div>
         

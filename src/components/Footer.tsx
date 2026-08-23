@@ -14,14 +14,14 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/" className="mb-6 flex items-center gap-3">
               <div className="relative h-12 w-12 overflow-hidden rounded-xl bg-brand-red/10 p-1">
-                <Image src="/logo.png" alt="RearMC Logo" fill className="object-contain" />
+                <Image src="/logo.png" alt="Arix Logo" fill className="object-contain" />
               </div>
               <span className="text-2xl font-bold tracking-tight text-white">
-                REAR<span className="text-brand-red">MC</span>
+                ARIX<span className="text-brand-red">MC</span>
               </span>
             </Link>
             <p className="mb-6 text-sm text-gray-400 max-w-xs">
-              India's premier competitive Minecraft PvP server. Join us for ultra-low latency, ranked matchmaking, and professional tier testing.
+              Official competitive Minecraft PvP tier list and player rankings.
             </p>
           </div>
 
@@ -29,10 +29,8 @@ export default function Footer() {
             <h3 className="mb-6 text-lg font-bold text-white">Quick Links</h3>
             <ul className="space-y-3">
               <li><Link href="/" className="text-gray-400 hover:text-brand-red transition-colors">Home</Link></li>
-              <li><Link href="#features" className="text-gray-400 hover:text-brand-red transition-colors">Features</Link></li>
-              <li><Link href="/tierlist" className="text-gray-400 hover:text-brand-red transition-colors">Tier List</Link></li>
-              <li><Link href="https://store.rearmc.net" className="text-gray-400 hover:text-brand-red transition-colors">Store</Link></li>
-              <li><Link href="/admin" className="text-gray-400 hover:text-brand-red transition-colors font-bold mt-2 inline-block">Admin Dashboard</Link></li>
+              <li><Link href="/" className="text-gray-400 hover:text-brand-red transition-colors">Tier List</Link></li>
+              <li><Link href="https://discord.gg/ApBJNxBCuj" className="text-gray-400 hover:text-brand-red transition-colors">Discord Server</Link></li>
             </ul>
           </div>
 
@@ -42,26 +40,27 @@ export default function Footer() {
               <li><Link href="https://discord.gg/ApBJNxBCuj" className="text-gray-400 hover:text-brand-red transition-colors">Discord</Link></li>
               <li><Link href="#" className="text-gray-400 hover:text-brand-red transition-colors">Twitter</Link></li>
               <li><Link href="#" className="text-gray-400 hover:text-brand-red transition-colors">YouTube</Link></li>
-              <li><Link href="#support" className="text-gray-400 hover:text-brand-red transition-colors">Support</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="mb-6 text-lg font-bold text-white">Legal</h3>
             <ul className="space-y-3">
-              <li><Link href="/rules" className="text-gray-400 hover:text-brand-red transition-colors">Server Rules</Link></li>
-              <li><Link href="/privacy" className="text-gray-400 hover:text-brand-red transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="text-gray-400 hover:text-brand-red transition-colors">Terms of Service</Link></li>
+              <li><Link href="#" className="text-gray-400 hover:text-brand-red transition-colors">Rules</Link></li>
+              <li><Link href="#" className="text-gray-400 hover:text-brand-red transition-colors">Privacy Policy</Link></li>
+              <li><Link href="#" className="text-gray-400 hover:text-brand-red transition-colors">Terms of Service</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="mt-16 flex flex-col items-center justify-between border-t border-white/10 pt-8 sm:flex-row">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} RearMC. All rights reserved. Not affiliated with Mojang AB.
+            &copy; {new Date().getFullYear()} Arix Tierlist. All rights reserved. Not affiliated with Mojang AB.
           </p>
           <div className="mt-4 flex gap-4 sm:mt-0">
-            <span className="text-sm font-bold text-brand-red">play.rearmc.fun</span>
+            <Link href="https://discord.gg/ApBJNxBCuj" className="text-sm font-bold text-brand-red hover:underline">
+              discord.gg/ApBJNxBCuj
+            </Link>
           </div>
         </div>
       </div>

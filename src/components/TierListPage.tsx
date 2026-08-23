@@ -1129,7 +1129,7 @@ export default function TierListPage() {
   const handleEditClick = useCallback((ign: string) => {
     // Check if they have already claimed it
     try {
-      const claims = JSON.parse(localStorage.getItem("rearmc_claims") || "{}");
+      const claims = JSON.parse(localStorage.getItem("arix_claims") || "{}");
       if (claims[ign]) {
         setEditingProfile(ign);
       } else {
